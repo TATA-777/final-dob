@@ -355,7 +355,7 @@ export default function MovieDetail({ query }) {
             <Textarea
               value={userReview}
               onChange={handleReviewChange}
-              placeholder="리뷰 작성해 주세요..."
+              placeholder="댓글 작성해 주세요..."
               size="sm"
               mb={2}
             />
@@ -366,7 +366,7 @@ export default function MovieDetail({ query }) {
             {reviews.length > 0 && (
               <Box mt={4}>
                 <Heading size="md" mb={4}>
-                  Reviews
+                  Community
                 </Heading>
                 <Box maxHeight="300px" overflowY="auto">
                   {reviews.map((review) => (
