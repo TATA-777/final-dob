@@ -213,7 +213,9 @@ const TeamPage = () => {
             color="white"
             _hover={{ bg: '#b355bd' }}
             size="lg"
-            onClick={() => window.open('여기에 유튜브 링크 넣기', '_blank')}
+            onClick={() =>
+              window.open('https://youtu.be/7F-RFrO-Ac8', '_blank')
+            }
           >
             <Image
               src="/youtube.svg"
